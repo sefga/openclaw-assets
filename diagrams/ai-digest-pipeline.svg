@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .bg{fill:#f8fafc}
+      .title{font:700 44px Arial, Helvetica, sans-serif; fill:#0f172a}
+      .sub{font:400 22px Arial, Helvetica, sans-serif; fill:#334155}
+      .box{fill:#ffffff; stroke:#1d4ed8; stroke-width:4; rx:24; ry:24}
+      .box2{fill:#ecfeff; stroke:#0f766e; stroke-width:4; rx:24; ry:24}
+      .box3{fill:#fef3c7; stroke:#b45309; stroke-width:4; rx:24; ry:24}
+      .box4{fill:#dcfce7; stroke:#15803d; stroke-width:4; rx:24; ry:24}
+      .label{font:700 28px Arial, Helvetica, sans-serif; fill:#0f172a}
+      .small{font:400 20px Arial, Helvetica, sans-serif; fill:#334155}
+      .tiny{font:400 18px Arial, Helvetica, sans-serif; fill:#475569}
+      .arrow{stroke:#475569; stroke-width:6; fill:none; marker-end:url(#arrowHead)}
+      .dash{stroke-dasharray:12 12}
+      .pill{fill:#dbeafe; stroke:#2563eb; stroke-width:3; rx:18; ry:18}
+    </style>
+    <marker id="arrowHead" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#475569" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="900" />
+  <text class="title" x="80" y="90">Утренний AI-дайджест: от шума к действию</text>
+  <text class="sub" x="80" y="130">RSS + API → фильтрация → приоритет → Telegra.ph → Telegram</text>
+
+  <rect class="box" x="80" y="220" width="250" height="140" />
+  <text class="label" x="205" y="275" text-anchor="middle">Источники</text>
+  <text class="small" x="205" y="312" text-anchor="middle">Planet AI</text>
+  <text class="small" x="205" y="340" text-anchor="middle">LangChain · HF · arXiv</text>
+
+  <rect class="box2" x="390" y="220" width="260" height="140" />
+  <text class="label" x="520" y="275" text-anchor="middle">Отбор</text>
+  <text class="small" x="520" y="312" text-anchor="middle">сигнал > шум</text>
+  <text class="small" x="520" y="340" text-anchor="middle">дедупликация, рейтинг</text>
+
+  <rect class="box3" x="710" y="220" width="290" height="140" />
+  <text class="label" x="855" y="275" text-anchor="middle">Плотный вывод</text>
+  <text class="small" x="855" y="312" text-anchor="middle">что произошло</text>
+  <text class="small" x="855" y="340" text-anchor="middle">почему важно / что делать</text>
+
+  <rect class="box4" x="1060" y="220" width="240" height="140" />
+  <text class="label" x="1180" y="275" text-anchor="middle">Telegra.ph</text>
+  <text class="small" x="1180" y="312" text-anchor="middle">статья + ссылки</text>
+  <text class="small" x="1180" y="340" text-anchor="middle">диаграмма внутри текста</text>
+
+  <rect class="box" x="1340" y="220" width="180" height="140" />
+  <text class="label" x="1430" y="275" text-anchor="middle">Telegram</text>
+  <text class="small" x="1430" y="312" text-anchor="middle">короткая версия</text>
+  <text class="small" x="1430" y="340" text-anchor="middle">быстрое решение</text>
+
+  <path class="arrow" d="M 330 290 L 385 290" />
+  <path class="arrow" d="M 650 290 L 705 290" />
+  <path class="arrow" d="M 1000 290 L 1055 290" />
+  <path class="arrow" d="M 1300 290 L 1335 290" />
+
+  <text class="sub" x="800" y="455" text-anchor="middle">Смысл: не собирать новости, а превращать их в решение на сегодня</text>
+
+  <rect class="pill" x="180" y="520" width="300" height="78" />
+  <text class="tiny" x="330" y="568" text-anchor="middle">Фокус: агентная разработка, AI coding, LLM tools</text>
+
+  <rect class="pill" x="560" y="520" width="360" height="78" />
+  <text class="tiny" x="740" y="568" text-anchor="middle">Результат: 5–8 полезных пунктов вместо 50 ссылок</text>
+
+  <rect class="pill" x="1000" y="520" width="420" height="78" />
+  <text class="tiny" x="1210" y="568" text-anchor="middle">Выход: статья, которую можно прочитать за 3–5 минут</text>
+
+  <text class="sub" x="80" y="700">Диаграмма — часть повествования: она объясняет, как шум превращается в полезный утренний текст.</text>
+  <text class="tiny" x="80" y="742">Hosted in GitHub: coo13/openclaw-assets → forked to sefga/openclaw-assets for public raw asset links.</text>
+</svg>

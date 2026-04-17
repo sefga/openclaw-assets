@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <style>
+      .bg{fill:#fcfcfd}
+      .title{font:700 44px Arial, Helvetica, sans-serif; fill:#111827}
+      .sub{font:400 22px Arial, Helvetica, sans-serif; fill:#374151}
+      .box{fill:#ffffff; stroke:#7c3aed; stroke-width:4; rx:24; ry:24}
+      .box2{fill:#f5f3ff; stroke:#6d28d9; stroke-width:4; rx:24; ry:24}
+      .box3{fill:#eff6ff; stroke:#2563eb; stroke-width:4; rx:24; ry:24}
+      .box4{fill:#ecfccb; stroke:#3f6212; stroke-width:4; rx:24; ry:24}
+      .label{font:700 28px Arial, Helvetica, sans-serif; fill:#111827}
+      .small{font:400 20px Arial, Helvetica, sans-serif; fill:#374151}
+      .tiny{font:400 18px Arial, Helvetica, sans-serif; fill:#4b5563}
+      .arrow{stroke:#4b5563; stroke-width:6; fill:none; marker-end:url(#arrowHead)}
+      .decision{fill:#fff7ed; stroke:#c2410c; stroke-width:4; rx:24; ry:24}
+      .warn{fill:#fef2f2; stroke:#dc2626; stroke-width:4; rx:24; ry:24}
+      .pill{fill:#ede9fe; stroke:#8b5cf6; stroke-width:3; rx:18; ry:18}
+    </style>
+    <marker id="arrowHead" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M 0 0 L 12 6 L 0 12 z" fill="#4b5563" />
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="900" />
+  <text class="title" x="80" y="90">Еженедельный YouTube-анти-хаос: смотреть только ценное</text>
+  <text class="sub" x="80" y="130">Каналы → оценка сигнала → краткий вывод → watch / save / skip</text>
+
+  <rect class="box" x="70" y="220" width="260" height="140" />
+  <text class="label" x="200" y="275" text-anchor="middle">Каналы</text>
+  <text class="small" x="200" y="312" text-anchor="middle">только твой список</text>
+  <text class="small" x="200" y="340" text-anchor="middle">новые видео за 7 дней</text>
+
+  <rect class="box2" x="380" y="220" width="290" height="140" />
+  <text class="label" x="525" y="275" text-anchor="middle">Фильтр</text>
+  <text class="small" x="525" y="312" text-anchor="middle">полезность / шум</text>
+  <text class="small" x="525" y="340" text-anchor="middle">дубликаты, перезаливы</text>
+
+  <rect class="decision" x="720" y="220" width="300" height="140" />
+  <text class="label" x="870" y="275" text-anchor="middle">Оценка</text>
+  <text class="small" x="870" y="312" text-anchor="middle">практическая ценность</text>
+  <text class="small" x="870" y="340" text-anchor="middle">контент ради контента?</text>
+
+  <rect class="box3" x="1080" y="220" width="220" height="140" />
+  <text class="label" x="1190" y="275" text-anchor="middle">Telegra.ph</text>
+  <text class="small" x="1190" y="312" text-anchor="middle">сводка</text>
+  <text class="small" x="1190" y="340" text-anchor="middle">ссылки + вывод</text>
+
+  <rect class="box4" x="1350" y="220" width="180" height="140" />
+  <text class="label" x="1440" y="275" text-anchor="middle">Действие</text>
+  <text class="small" x="1440" y="312" text-anchor="middle">watch / save</text>
+  <text class="small" x="1440" y="340" text-anchor="middle">skip</text>
+
+  <path class="arrow" d="M 330 290 L 375 290" />
+  <path class="arrow" d="M 670 290 L 715 290" />
+  <path class="arrow" d="M 1020 290 L 1075 290" />
+  <path class="arrow" d="M 1300 290 L 1345 290" />
+
+  <rect class="warn" x="90" y="450" width="430" height="120" />
+  <text class="label" x="305" y="500" text-anchor="middle">Главный принцип</text>
+  <text class="small" x="305" y="535" text-anchor="middle">если видео не двигает тебя вперёд — оно не в топ</text>
+
+  <rect class="pill" x="590" y="450" width="410" height="120" />
+  <text class="label" x="795" y="500" text-anchor="middle">Результат</text>
+  <text class="small" x="795" y="535" text-anchor="middle">3–5 видео worth your time, остальные — мимо</text>
+
+  <rect class="pill" x="1060" y="450" width="450" height="120" />
+  <text class="label" x="1285" y="500" text-anchor="middle">Формат ответа</text>
+  <text class="small" x="1285" y="535" text-anchor="middle">кратко, blunt, с рекомендацией что делать</text>
+
+  <text class="sub" x="80" y="675">Диаграмма встроена в статью как часть аргумента: она объясняет, почему некоторые видео стоит пропустить.</text>
+  <text class="tiny" x="80" y="717">Hosted in GitHub: coo13/openclaw-assets → forked to sefga/openclaw-assets for public raw asset links.</text>
+</svg>
